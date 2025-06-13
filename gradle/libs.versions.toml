@@ -1,0 +1,39 @@
+[versions]
+android-gradle-plugin = "8.10.1"
+kotlin = "2.0.20"
+compose-compiler = "2.0.20"
+androidx-core-ktx = "1.13.1"
+androidx-activity-compose = "1.9.2"
+androidx-compose-bom = "2025.01.00"
+androidx-lifecycle = "2.8.6"
+junit = "4.13.2"
+androidx-junit = "1.2.1"
+androidx-espresso = "3.6.1"
+androidx-material-icons = "1.7.0"
+lottie-compose = "6.4.1" # Add this line
+
+
+[libraries]
+android-gradle-plugin = { module = "com.android.tools.build:gradle", version.ref = "android-gradle-plugin" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx-core-ktx" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity-compose" }
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "androidx-compose-bom" }
+androidx-ui = { module = "androidx.compose.ui:ui" }
+androidx-material3 = { module = "androidx.compose.material3:material3" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "androidx-material-icons" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+androidx-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+androidx-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+androidx-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+androidx-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+junit = { module = "junit:junit", version.ref = "junit" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-junit" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-espresso" }
+androidx-lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottie-compose" } # Add this line
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
