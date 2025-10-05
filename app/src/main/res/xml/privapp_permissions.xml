@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.tripleu.dummychromebrowser">
+        <!-- Internet access -->
+        <permission name="android.permission.INTERNET"/>
+
+        <!-- Default browser permissions -->
+        <permission name="android.permission.SET_PREFERRED_APPLICATIONS"/>
+
+        <!-- Network state -->
+        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+        <permission name="android.permission.CHANGE_NETWORK_STATE"/>
+
+        <!-- Write secure settings (for default browser) -->
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+
+        <!-- Browser provider access -->
+        <permission name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+        <permission name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+
+        <!-- Query all packages -->
+        <permission name="android.permission.QUERY_ALL_PACKAGES"/>
+    </privapp-permissions>
+</permissions>
